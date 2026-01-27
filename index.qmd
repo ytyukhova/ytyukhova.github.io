@@ -1,0 +1,33 @@
+---
+title: "Yulia Tyukhova"
+subtitle: "Independent researcher in lighting, human perception, and visual comfort."
+page-layout: article
+toc: false
+comments: false
+format:
+  html:
+    css: styles.css
+---
+
+::: {.column-page style="text-align: center; margin-bottom: 2em;"}
+![](images/profile.jpeg){width=25%}
+
+<div style="font-size: 1.5em; margin-top: 1em;">
+<a href="https://www.linkedin.com/in/yuliatyukhova/" target="_blank"><i class="bi bi-linkedin"></i></a>
+<a href="https://x.com/ytyukhova/" target="_blank"><i class="bi bi-twitter" style="margin-left: 0.5em;"></i></a>
+<a href="https://github.com/ytyukhova/" target="_blank"><i class="bi bi-github" style="margin-left: 0.5em;"></i></a>
+</div>
+:::
+
+I'm Yulia Tyukhova, an independent researcher focused on human perception, lighting quality, glare, visual comfort, and data analytics. My work spans research, standards, and applied studies in lighting and visibility.
+
+I serve on technical and non-technical committees for the Illuminating Engineering Society (IES), the International Commission on Illumination (CIE), and the Transportation Research Board (TRB). I have chaired the IES Marks Award committee and previously led the IES Emerging Professional Program.
+
+I author and review scientific papers, hold two patents, and present regularly at professional conferences.
+
+Areas of focus include:
+
+- **Human perception and visual comfort**
+- **Glare evaluation and mitigation**
+- **Lighting quality and luminance measurement**
+- **Data-driven analysis for lighting research**

@@ -1,0 +1,63 @@
+---
+title: "Yulia Tyukhova"
+subtitle: "Independent Researcher"
+image: images/profile.jpeg
+page-layout: full
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yuliatyukhova/
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/ytyukhova/
+    - icon: github
+      text: Github
+      href: https://github.com/ytyukhova/
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=Ev9KmxoAAAAJ&hl=en
+    - icon: link-45deg
+      text: IES Profile
+      href: https://ies.org/contributor/dr-yulia-tyukhova/
+format:
+  html:
+    css: styles.css
+---
+
+<div style="text-align: left;">
+
+Dr. Yulia Tyukhova is an independent researcher with interests spanning human perception, lighting quality, glare, visual comfort, and data analytics. She holds a Ph.D. in Architectural Engineering – Lighting from the University of Nebraska–Lincoln.
+
+Her experience includes work on both technical and non-technical committees for the Illuminating Engineering Society (IES), the International Commission on Illumination (CIE), and the Transportation Research Board (TRB). She has served as Chair of the IES Marks Award committee and previously chaired the IES Emerging Professional Program.
+
+Yulia authors and reviews scientific papers, holds two patents, and presents at professional conferences.
+
+
+## Research Interests
+
+* **Human perception**
+* **Lighting quality**
+* **Glare and visual comfort**
+* **Data analytics**
+
+## Service
+
+* **IES, CIE, TRB**: Technical and non-technical committee work
+* **IES Marks Award Committee**: Chair
+* **IES Emerging Professional Program**: Former Chair
+
+## Education
+
+**University of Nebraska–Lincoln** | Ph.D., Architectural Engineering – Lighting
+
+## Awards & Honors
+
+* **Fulbright Scholarship**
+* **Richard Kelly Grant**
+* **STEP Ahead Emerging Leader Award**
+
+</div>

@@ -1,0 +1,44 @@
+---
+title: "Publications"
+page-layout: full
+format:
+  html:
+    css: ../styles.css
+---
+
+A full list of my publications can be found on [Google Scholar](https://scholar.google.com/citations?user=Ev9KmxoAAAAJ&hl=en)
+
+## Journal Articles
+
+* **Discomfort glare in outdoor environments after dark--a review of methods, measures, and models**  
+  Y. Tyukhova  
+  *Building and Environment*, 263, 111850, 2024
+
+* **Subjective and pupil responses to discomfort glare from small, high-luminance light sources**  
+  Y. Tyukhova, C.E. Waters  
+  *Lighting Research & Technology*, 51(4), 592-611, 2019
+
+* **Discomfort glare from small, high-luminance light sources when viewed against a dark surround**  
+  Y. Tyukhova, C.E. Waters  
+  *Leukos*, 14(4), 215-230, 2018
+
+* **An assessment of high dynamic range luminance measurements with LED lighting**  
+  Y. Tyukhova, C. Waters  
+  *Leukos*, 10(2), 87-99, 2014
+
+## Patents
+
+* **Luminaires with transition zones for glare control**  
+  Y. Tyukhova, J.E. Gibson, J.B. Harvey, J. Chen, C.E. Marquardt, D.V. Sekowski  
+  *US Patent 11,060,673*, 2021-07-13
+
+## Thesis
+
+* **Discomfort glare from small, high luminance light sources in outdoor nighttime environments (thesis)**  
+  Y. Tyukhova  
+  *University of Nebraska–Lincoln*, 2015
+
+## Manuscripts
+
+* **Accepted manuscript (Building and Environment)**  
+  Y. Tyukhova  
