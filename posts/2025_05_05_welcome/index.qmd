@@ -1,13 +1,13 @@
 ---
-title: "Welcome to Layer by Layer"
+title: "You are in on the hai-lights"
 author: "Yulia Tyukhova"
-date: "2025-05-05"
+date: "TBD"
 categories: [news, introduction]
 ---
 
-# Welcome to Layer by Layer
+# You are in on the hai-lights
 
-Hello and welcome to **Layer by Layer** - and experiment in learning in public where I'll be sharing my exploration of machine learning concepts, techniques, and research.
+TBD
 
 ## Why I Started This Blog
 
@@ -20,19 +20,3 @@ This blog is my attempt to:
 3. **Summarize interesting papers** - Distilling key ideas from research into accessible explanations (in the spirit of [Two Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg) but in longer written form). This is inspired by [Jay Alammar's Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) his [Illustrated Deep Seek R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1) and overall his [Illustrated* series now available at Substack](https://newsletter.languagemodels.co/).
 4. **Build in public** - Showing both successes and the inevitable struggles, and also post project walkthroughs.
 5. **Link to resources** - Occasionally, I'll be posting links to useful resources - though I don't want to make this another newslettter or news aggregator.
-
-## About Me
-
-I'm Yulia Tyukhova, a researcher and engineer with a background in robotics and multi-agent systems. I completed my PhD at Georgia Tech where I developed the [Robotarium](https://www.robotarium.gatech.edu/), a remotely accessible swarm robotics testbed. My swarm robotics days are somewhat behind me - or maybe just on pause until swarm robotics has more practical applications. Until then, I am really excited and curious about machine learning - most of all foundation models of all modalities.
-
-![Robotarium](https://herainc.com/wp-content/uploads/2018/02/Georgia-Tech-Robotarium-2.jpg)
-
-## Join Me on This Journey
-
-I hope you'll find the content here useful, whether you're just starting out in ML or are already well into your own journey. Feel free to reach out with questions, corrections, or suggestions for topics you'd like to see covered.
-
-Let's explore the fascinating world of machine learning together, one layer at a time.
-
-*Stay curious,*
-
-Daniel

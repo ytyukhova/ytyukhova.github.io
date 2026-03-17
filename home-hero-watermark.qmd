@@ -1,0 +1,40 @@
+---
+title: "hai-light — Hero Watermark"
+page-layout: article
+toc: false
+format:
+  html:
+    css: styles.css
+---
+
+::: {.hcc-hero hcc-hero-watermark}
+<div class="hcc-hero-watermark-image" aria-hidden="true"></div>
+::: {.hcc-hero-grid}
+::: {.hcc-hero-copy}
+<div class="hcc-kicker">Consultancy Firm</div>
+
+<h1 class="hcc-title">hai-light</h1>
+
+<p class="hcc-subtitle">
+I study human perception, glare, and lighting quality, with a focus on practical
+metrics and data-driven analysis for real-world environments.
+</p>
+
+<div class="hcc-cta">
+<a class="hcc-button ghost" href="about/summary/">About Yulia</a>
+<a class="hcc-button ghost" href="publications/">Publications</a>
+</div>
+
+<div class="hcc-social">
+<a href="https://www.linkedin.com/in/yuliatyukhova/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://x.com/ytyukhova/" target="_blank" aria-label="X"><i class="bi bi-twitter"></i></a>
+<a href="https://github.com/ytyukhova/" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://scholar.google.com/citations?user=Ev9KmxoAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="bi bi-mortarboard"></i></a>
+</div>
+:::
+:::
+:::
+
+<div style="margin-top: 1.5rem;">
+<a href="index.qmd">Back to home</a>
+</div>

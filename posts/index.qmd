@@ -1,5 +1,5 @@
 ---
-title: "Layer by Layer"
+title: "Hai-lights"
 listing:
   contents: .
   sort:
@@ -10,9 +10,11 @@ listing:
   sort-ui: true
   filter-ui: true
 page-layout: full
+body-classes: hailights-page
 format:
   html:
     css: ../styles.css
+    title-block-banner: true
 ---
 
-This blog is all about me learning in public and sharing what I discover along the way. If something I write helps even one person understand a concept better, I'll consider this blog a success.
+Hai-lights cover a range of subjects in the industry and personal observations.
