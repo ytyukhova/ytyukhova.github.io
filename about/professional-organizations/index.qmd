@@ -1,0 +1,28 @@
+---
+title: "Volunteer Service in Professional Organizations"
+page-layout: full
+format:
+  html:
+    css: ../../styles.css
+---
+
+Dr. Tyukhova's volunteer service in professional organizations spans nearly 15 years. During this time, she has authored, reviewed, and edited substantial portions of technical documents, contributed her expertise to numerous professional discussions, and played a leading role in organizing industry events and award recognition initiatives.
+
+## Illuminating Engineering Society (IES) committees {#ies-committees}
+
+* **Discomfort Glare in Outdoor Nighttime Environments committee** | member (2016-current)
+* **Annual Lighting Conference Papers subcommittee** | member (2016-current)
+* **Marks Award committee** | past Chair (2025) and past member (2022-2025)
+* **Emerging Professional Program committee** | past Chair (2017-2021) and past member (2012-2023)
+* **Reviewer of the IES conference general session submissions** | as Chair of the EP Program committee (2018-2020)
+* **Research Symposium committee** | past Co-Chair (2021-2022) | past member (2018-2022)
+* **Outdoor Environmental Lighting committee** | past member (2015-2020)
+
+## International Commission on Illumination (CIE) committees {#cie-committees}
+
+* **Research Methods for Psychophysical Studies of Discomfort from Glare (TC 1-103) committee** | member (2024-current)
+* **Discomfort caused by glare from luminaires with a non-uniform source luminance JTC 7 (D3/D1) committee** | past member (2016-2019)
+
+## Transportation Research Board (TRB) committee {#trb-committee}
+
+* **Committee on Visibility (AND40)** | past member (2017-2020)

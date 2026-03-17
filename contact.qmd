@@ -1,0 +1,21 @@
+---
+title: ""
+page-layout: article
+toc: false
+format:
+  html:
+    css: styles.css
+    title-block: false
+---
+
+<div class="hcc-contact-page">
+  <h2>Contact</h2>
+  <p>For research, consulting, or speaking opportunities:</p>
+  <p class="contact-inline">
+    <a href="mailto:yulia@hai-light.com">yulia@hai-light.com</a>
+    <a class="contact-icon" href="https://www.linkedin.com/in/yuliatyukhova/" target="_blank" aria-label="LinkedIn">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </p>
+  <p>#lighting #illumination #engineering #experiments #research #lightingcalculations #measurements #software #technicalwriting #leadership #presentation #education</p>
+</div>

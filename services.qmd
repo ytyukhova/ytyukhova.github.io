@@ -1,0 +1,29 @@
+---
+title: "Services"
+page-layout: article
+toc: false
+format:
+  html:
+    css: styles.css
+---
+
+## Services
+
+I provide research, advisory, and consulting support across lighting quality, glare, and visual comfort.
+
+### Lighting Quality & Glare
+- Discomfort glare evaluation and mitigation
+- Luminance measurement and HDR workflows
+- Visual comfort assessment for indoor/outdoor environments
+
+### Data Analytics & Study Design
+- Experimental design and protocol review
+- Data analysis and interpretation
+- Reporting for technical and non-technical audiences
+
+### Standards & Committees
+- Technical guidance for standards development
+- Evidence synthesis and literature review
+- Stakeholder alignment and documentation
+
+If you'd like to discuss a project, please use the contact form on the Contact page.

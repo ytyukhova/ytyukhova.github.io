@@ -1,5 +1,9 @@
 # Netlify redirects file
 
+/about      /about/summary/   301
+/about/     /about/summary/   301
+/about.html /about/summary/   301
+
 # Custom 404 page rule
 # This tells Netlify to serve your /404.html page
 # when a requested resource is not found.

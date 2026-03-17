@@ -11,17 +11,25 @@ website:
   title: "Yulia Tyukhova"
   description: "Yulia Tyukhova is currently a Staff Software Engineer at NVIDIA, where she focuses on developing scalable evaluation systems for autonomous vehicles. Her passion, however, lies in LLMs, multimodal models, agentic AI, and frontier / foundation models in general."
   navbar:
+    title: false
+    logo: images/yt-logo-transparent.png
     left:
-      - href: index.qmd
-        text: Home
-      - href: publications
-        text: Publications
       - href: posts
-        text: Blog
-      - href: about.qmd
-        text: About
+        text: Hai-lights
+      - href: services.qmd
+        text: Services
+      - text: About
+        menu:
+          - href: about/summary/
+            text: Summary
+          - href: about/publications/
+            text: Publications
+          - href: about/professional-organizations/
+            text: Professional Organizations
+      - href: contact.qmd
+        text: Contact
   page-footer:
-    left: "© Yulia Tyukhova, 2025 - [Disclaimer](disclaimer)"
+    left: "© Yulia Tyukhova, 2026 - [Disclaimer](disclaimer/) | [Terms Of Use](terms-of-use/)"
   twitter-card: true
   open-graph: true
   google-analytics: "G-DGMKGL1EBP"
