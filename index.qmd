@@ -16,7 +16,7 @@ format:
       <div class="nb-kicker">Researcher and Technical Lead</div>
       <h1>Yulia Tyukhova</h1>
       <p class="nb-hero-subtitle">
-        Human-centered research in lighting quality, glare, and visual comfort.
+        Join me on a learning journey to explore new technologies, tools, and the insights shaping the lighting industry and beyond.
       </p>
       <div class="nb-hero-actions">
         <a class="nb-button ghost" href="posts/">Read Hai-lights</a>
