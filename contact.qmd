@@ -10,7 +10,7 @@ format:
 
 <div class="hcc-contact-page">
   <h2>Contact</h2>
-  <p>For research, consulting, or speaking opportunities:</p>
+  <p>For research, consulting, collaboration, or speaking opportunities:</p>
   <p class="contact-inline">
     <a href="mailto:yulia@hai-lights.com">yulia@hai-lights.com</a>
     <a class="contact-icon" href="https://www.linkedin.com/in/yuliatyukhova/" target="_blank" aria-label="LinkedIn">
@@ -19,3 +19,9 @@ format:
   </p>
   <p>#lighting #illumination #engineering #experiments #research #lightingcalculations #measurements #software #technicalwriting #leadership #presentation #education</p>
 </div>
+
+```{=html}
+<div class="contact-logo-wrap">
+  <img class="contact-logo" src="images/hai-lights-contact-logo.png" alt="Hai-lights logo" />
+</div>
+```

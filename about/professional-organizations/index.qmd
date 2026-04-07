@@ -6,7 +6,7 @@ format:
     css: ../../styles.css
 ---
 
-Dr. Tyukhova's volunteer service in professional organizations spans nearly 15 years. During this time, she has authored, reviewed, and edited substantial portions of technical documents, contributed her expertise to numerous professional discussions, and played a leading role in organizing industry events and award recognition initiatives.
+Dr. Tyukhova's volunteer service in professional organizations spans nearly 15 years. During this time, she has authored, reviewed, and edited technical documents and standards, contributed her expertise to numerous professional discussions, and played a leading role in organizing industry events and award recognition initiatives.
 
 ## Illuminating Engineering Society (IES) committees {#ies-committees}
 

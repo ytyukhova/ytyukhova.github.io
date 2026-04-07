@@ -1,6 +1,7 @@
 ---
 title: ""
 subtitle: ""
+image: images/Yulia_Tyukhova2.jpg
 page-layout: article
 toc: false
 comments: false
@@ -43,20 +44,319 @@ format:
     </div>
   </section>
 
-  <section class="nb-quote">
-    <div class="nb-quote-card">
-      <p> 
-        "Lighting research should move seamlessly from measurement to practice.
-        Yulia Tyukhova helps teams bridge that gap with clarity and rigor."
-      </p>
-      <div class="nb-quote-attrib">— Yulia Tyukhova, Ph.D.</div>
+  <section class="nb-publications" aria-label="Selected publications">
+    <div class="nb-publication-slider" id="featured-publication-slider" tabindex="0" aria-label="Featured publications">
+      <a class="nb-publication-card" href="https://journals.sagepub.com/doi/10.1177/03606325261420953?icid=int.sj-full-text.similar-articles.3" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2026-lda.png" alt="Preview of the LD+A article Honoring the Past, Shaping the Future: The Story of IES Awards" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://ies.org/fires/discomfort-glare-models-in-outdoor-environments-after-dark/" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2025-fires.png" alt="Preview of the FIRES article Discomfort Glare Models in Outdoor Environments After Dark" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://www.sciencedirect.com/science/article/abs/pii/S0360132324006929?via%3Dihub" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2024-bae.png" alt="Preview of the Building and Environment article Discomfort glare in outdoor environments after dark" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://journals.sagepub.com/doi/10.1177/036063252005000416?icid=int.sj-abstract.similar-articles.9" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2020-lda.png" alt="Preview of the LD+A article EP Program Helps Find the Range" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://patents.google.com/patent/US10309588B2/en" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2019-patent-us10309588b2.png" alt="Preview of the patent Luminaires with transition zones for glare control" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://store.ies.org/product/rp-39-19-recommended-practice-off-roadway-sign-luminance/?v=0b3b97fa6688" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-rp-39-19.png" alt="Preview of ANSI/IES RP-39-19 Recommended Practice: Off-Roadway Sign Luminance" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://cie.co.at/publications/discomfort-caused-glare-luminaires-non-uniform-source-luminance" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2019-cie-232.png" alt="Preview of CIE Technical Report 232:2019 on discomfort caused by glare from luminaires with a non-uniform source luminance" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://www.tandfonline.com/doi/full/10.1080/15502724.2018.1434415" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2018-leukos-dark-surround.png" alt="Preview of the Leukos article Discomfort Glare from Small, High-Luminance Light Sources When Viewed against a Dark Surround" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://journals.sagepub.com/doi/10.1177/1477153518772000" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2018-lrt-pupil-responses.png" alt="Preview of the Lighting Research and Technology article Subjective and pupil responses to discomfort glare from small, high-luminance light sources" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://www.ies.org/lda/leadership-without-formal-authority/" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2017-lda-leadership.png" alt="Preview of the LD+A article Leadership Without Formal Authority" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://digitalcommons.unl.edu/dissertations/AAI3738962/" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2015-phd.png" alt="Preview of the dissertation Discomfort glare from small, high luminance light sources in outdoor nighttime environments" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://www.tandfonline.com/doi/abs/10.1080/15502724.2014.861279" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2014-hdri.png" alt="Preview of the Leukos article An Assessment of High Dynamic Range Luminance Measurements with LED Lighting" />
+          </div>
+        </div>
+      </a>
+
+      <a class="nb-publication-card" href="https://digitalcommons.unl.edu/archengdiss/17/" target="_blank" rel="noreferrer">
+        <div class="nb-publication-page">
+          <div class="nb-publication-preview">
+            <img class="nb-publication-image" src="images/pub-2012-masters.png" alt="Preview of the master's thesis The Assessment of High Dynamic Range Luminance Measurements with LED Lighting" />
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="nb-slider-controls nb-slider-controls-bottom" aria-label="Publication slider controls">
+      <button class="nb-slider-button" type="button" data-slider-target="featured-publication-slider" data-direction="-1" aria-label="Scroll publications left">←</button>
+      <button class="nb-slider-button" type="button" data-slider-target="featured-publication-slider" data-direction="1" aria-label="Scroll publications right">→</button>
+    </div>
+
+  </section>
+
+  <section class="nb-interests" aria-labelledby="research-interests-title">
+    <h2 id="research-interests-title">Research Interests</h2>
+    <div class="nb-interest-grid">
+      <div class="nb-interest-tile">Lighting</div>
+      <div class="nb-interest-tile">Technology</div>
+      <div class="nb-interest-tile">Human perception</div>
+      <div class="nb-interest-tile">Data analytics</div>
     </div>
   </section>
 
-  <section class="nb-cta">
-    <h2>Start a project in days, not months.</h2>
-    <p>Let’s define the right metrics and methods for your lighting challenge.</p>
-    <a class="nb-button" href="contact.qmd">Contact Yulia Tyukhova</a>
+  <section class="nb-webinars" aria-label="Featured webinars">
+    <h2>Webinars</h2>
+    <div class="nb-webinar-grid">
+      <a class="nb-webinar-tile" href="https://elearning.ies.org/products/discomfort-glare-in-outdoor-nighttime-environments#tab-product_tab_overview" target="_blank" rel="noreferrer">
+        <img src="images/webinar-2019.png" alt="2019 webinar: Discomfort Glare in Outdoor Nighttime Environments" />
+      </a>
+      <a class="nb-webinar-tile" href="https://elearning.ies.org/products/glare-affairs-navigating-nighttime-discomfort-with-diverse-models" target="_blank" rel="noreferrer">
+        <img src="images/webinar-2025.png" alt="2025 webinar: Glare Affairs: Navigating Nighttime Discomfort with Diverse Models" />
+      </a>
+    </div>
   </section>
 </div>
+
+<style>
+  .nb-publication-slider {
+    grid-auto-columns: minmax(10rem, 24%) !important;
+  }
+
+  .nb-publication-page {
+    aspect-ratio: 4 / 5 !important;
+    padding: 0.35rem !important;
+  }
+
+  .nb-publication-preview {
+    height: 100% !important;
+  }
+
+  @media (max-width: 900px) {
+    .nb-publication-slider {
+      grid-auto-columns: minmax(10rem, 42%) !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .nb-publication-slider {
+      grid-auto-columns: minmax(9rem, 64%) !important;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.getElementById("featured-publication-slider");
+    const buttons = Array.from(document.querySelectorAll(".nb-slider-button"));
+
+    if (!slider || buttons.length === 0) {
+      return;
+    }
+
+    const originals = Array.from(slider.querySelectorAll(".nb-publication-card"));
+
+    if (originals.length === 0) {
+      return;
+    }
+
+    const makeClone = (card) => {
+      const clone = card.cloneNode(true);
+      clone.classList.add("is-clone");
+      clone.setAttribute("aria-hidden", "true");
+      clone.setAttribute("tabindex", "-1");
+      clone.querySelectorAll("a, button").forEach((element) => {
+        element.setAttribute("tabindex", "-1");
+      });
+      return clone;
+    };
+
+    originals.slice().reverse().forEach((card) => {
+      slider.prepend(makeClone(card));
+    });
+
+    originals.forEach((card) => {
+      slider.append(makeClone(card));
+    });
+
+    const getGap = () => {
+      const sliderStyles = window.getComputedStyle(slider);
+      return Number.parseFloat(sliderStyles.columnGap || sliderStyles.gap || "0");
+    };
+
+    const getStride = () => {
+      const firstCard = slider.querySelector(".nb-publication-card");
+      const cardWidth = firstCard ? firstCard.getBoundingClientRect().width : slider.clientWidth;
+      return cardWidth + getGap();
+    };
+
+    const getLoopWidth = () => getStride() * originals.length;
+
+    let isPaused = false;
+    let animationFrameId = null;
+    let lastTimestamp = 0;
+    let resumeTimeoutId = null;
+
+    const normalizeScroll = () => {
+      const loopWidth = getLoopWidth();
+
+      if (loopWidth <= 0) {
+        return;
+      }
+
+      if (slider.scrollLeft < loopWidth * 0.5) {
+        slider.scrollLeft += loopWidth;
+      } else if (slider.scrollLeft > loopWidth * 1.5) {
+        slider.scrollLeft -= loopWidth;
+      }
+    };
+
+    const pauseLoop = () => {
+      isPaused = true;
+      lastTimestamp = 0;
+    };
+
+    const resumeLoop = () => {
+      if (resumeTimeoutId !== null) {
+        window.clearTimeout(resumeTimeoutId);
+        resumeTimeoutId = null;
+      }
+
+      isPaused = false;
+    };
+
+    const resumeLoopSoon = () => {
+      if (resumeTimeoutId !== null) {
+        window.clearTimeout(resumeTimeoutId);
+      }
+
+      resumeTimeoutId = window.setTimeout(() => {
+        isPaused = false;
+        resumeTimeoutId = null;
+      }, 900);
+    };
+
+    const tick = (timestamp) => {
+      if (!isPaused) {
+        if (lastTimestamp !== 0) {
+          const deltaSeconds = (timestamp - lastTimestamp) / 1000;
+          slider.scrollLeft += deltaSeconds * 36;
+          normalizeScroll();
+        }
+
+        lastTimestamp = timestamp;
+      } else {
+        lastTimestamp = 0;
+      }
+
+      animationFrameId = window.requestAnimationFrame(tick);
+    };
+
+    const jumpToMiddle = () => {
+      slider.scrollLeft = getLoopWidth();
+    };
+
+    jumpToMiddle();
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const direction = Number(button.dataset.direction || 1);
+        const step = getStride() * 3 * direction;
+
+        pauseLoop();
+        slider.scrollBy({
+          left: step,
+          behavior: "smooth"
+        });
+
+        resumeLoopSoon();
+      });
+    });
+
+    slider.addEventListener("mouseenter", pauseLoop);
+    slider.addEventListener("mouseleave", resumeLoop);
+    slider.addEventListener("focusin", pauseLoop);
+    slider.addEventListener("focusout", resumeLoopSoon);
+    slider.addEventListener("touchstart", pauseLoop, { passive: true });
+    slider.addEventListener("touchend", resumeLoopSoon, { passive: true });
+    slider.addEventListener("scroll", normalizeScroll, { passive: true });
+
+    window.addEventListener("resize", () => {
+      jumpToMiddle();
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        pauseLoop();
+      } else {
+        resumeLoop();
+      }
+    });
+
+    animationFrameId = window.requestAnimationFrame(tick);
+  });
+</script>
 ```
