@@ -29,10 +29,10 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© Yulia Tyukhova, 2026 - <a href=\"/disclaimer/\">Disclaimer</a> | <a href=\"/terms-of-use/\">Terms Of Use</a>"
+    left: "© Yulia Tyukhova, 2026 - <span class=\"footer-legal-links\"><a href=\"/disclaimer/\">Disclaimer</a> | <a href=\"/terms-of-use/\">Terms Of Use</a></span>"
   twitter-card: true
   open-graph: true
-  google-analytics: "G-DGMKGL1EBP"
+  google-analytics: "G-6QDG6L7F9K"
 
 format:
   html:

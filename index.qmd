@@ -39,9 +39,17 @@ format:
       <p>Data-driven analysis, study design, and interpretable outcomes for decision makers.</p>
     </div>
     <div class="nb-feature">
-      <h2>Passion</h2>
+      <h2>Results</h2>
       <p>Technical committee expertise to translate research into practice and policy.</p>
     </div>
+  </section>
+
+  <section class="nb-quote-callout" aria-labelledby="nb-quote-title">
+    <p class="nb-quote-kicker" id="nb-quote-title">From Hai-lights</p>
+    <blockquote class="nb-home-quote">
+      Not using AI systems for various tasks increasingly feels like falling behind in productivity and efficiency, yet using them raises fundamental questions: can we trust the results, how do we verify their accuracy, and what is our role as AI systems autonomously complete tasks of increasing complexity?
+    </blockquote>
+    <a class="nb-quote-link" href="posts/2026_04_10_welcome/">Read more</a>
   </section>
 
   <section class="nb-publications" aria-label="Selected publications">

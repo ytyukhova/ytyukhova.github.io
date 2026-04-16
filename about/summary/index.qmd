@@ -20,13 +20,13 @@ format:
 
 <div style="text-align: left;">
 
-::: {.columns .about-columns}
-::: {.column width="35%"}
+<div class="about-columns">
+<div class="about-column about-column-photo">
 <div class="about-photo-wrap">
   <img src="../../images/profile.jpeg" alt="Yulia Tyukhova portrait" class="about-photo" />
 </div>
-:::
-::: {.column width="65%"}
+</div>
+<div class="about-column about-column-text">
 
 Yulia Tyukhova, PhD, is an independent researcher specializing in lighting quality, human perception, and visual comfort. Previously she was a Senior Illumination Research Engineer at Acuity. She is experienced in leading and conducting complex research projects with human subjects, including designing, setting up, measuring, and executing controlled experiments in the field of lighting. She has advanced expertise in lighting measurements, calculations, and software. She received her PhD in Architectural Engineering - Lighting from the University of Nebraska-Lincoln.
 
@@ -50,8 +50,8 @@ Request a copy of the CV.
     <i class="bi bi-mortarboard"></i><span>Google Scholar</span>
   </a>
 </div>
-:::
-:::
+</div>
+</div>
 
 ## Professional and Research Interests {#research-interests}
 
