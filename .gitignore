@@ -3,5 +3,6 @@
 _freeze
 /.quarto/
 /_site/
+/tmp/
 
 **/*.quarto_ipynb
