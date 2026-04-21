@@ -1,8 +1,0 @@
-*.html
-*.log
-_freeze
-/.quarto/
-/_site/
-/tmp/
-
-**/*.quarto_ipynb
