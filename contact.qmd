@@ -27,7 +27,8 @@ format:
     </p>
   </div>
   <div class="hcc-contact-form-panel">
-    <form class="hcc-contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <form class="hcc-contact-form" name="contact" method="POST" action="/contact-success.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
       <h3 class="hcc-contact-form-title">Send a Message</h3>
       <p class="hcc-visually-hidden">
         <label>Don't fill this out if you're human: <input name="bot-field" /></label>

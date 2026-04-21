@@ -1,0 +1,20 @@
+---
+title: ""
+page-layout: full
+toc: false
+format:
+  html:
+    css: styles.css
+    title-block: false
+---
+
+```{=html}
+<section class="hcc-contact-page hcc-contact-success">
+  <div class="hcc-contact-copy">
+    <h2>Message Sent</h2>
+    <p class="hcc-contact-lead">Thank you. Your message has been submitted successfully.</p>
+    <p>I will review it and get back to you as soon as I can.</p>
+    <p><a class="hcc-button" href="/contact.html">Back to contact</a></p>
+  </div>
+</section>
+```
