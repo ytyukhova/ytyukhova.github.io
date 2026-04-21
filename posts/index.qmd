@@ -37,13 +37,71 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const logoWrap = document.querySelector(".hailights-banner-logo-wrap");
   const listing = document.querySelector(".quarto-listing");
+  const footer = document.querySelector("footer.footer");
   const mainContent = document.querySelector("main#quarto-document-content");
+  const postCount = document.querySelectorAll(".quarto-post").length;
+  const placeLogo = function () {
+    if (!logoWrap) {
+      return;
+    }
 
-  if (logoWrap && listing && listing.parentNode) {
-    listing.parentNode.insertBefore(logoWrap, listing.nextSibling);
-  } else if (logoWrap && mainContent) {
-    mainContent.appendChild(logoWrap);
-  }
+    const viewportWidth = window.innerWidth;
+    const isSinglePost = postCount <= 1;
+
+    if (!isSinglePost && viewportWidth < 992 && listing && listing.parentNode) {
+      listing.parentNode.insertBefore(logoWrap, listing.nextSibling);
+      const oldEndcap = document.querySelector(".hailights-page-endcap");
+      if (oldEndcap && oldEndcap.childElementCount === 0) {
+        oldEndcap.remove();
+      }
+      return;
+    }
+
+    if (footer && footer.parentNode) {
+      let endcap = document.querySelector(".hailights-page-endcap");
+      if (!endcap) {
+        endcap = document.createElement("div");
+        endcap.className = "hailights-page-endcap";
+        footer.parentNode.insertBefore(endcap, footer);
+      }
+      endcap.appendChild(logoWrap);
+      return;
+    }
+
+    if (mainContent) {
+      mainContent.appendChild(logoWrap);
+    }
+  };
+
+  const syncShortPageLayout = function () {
+    if (!logoWrap || !footer) {
+      return;
+    }
+
+    document.body.classList.remove("hailights-short-page");
+    const footerHeight = footer.offsetHeight || 0;
+    const logoHeight = logoWrap.offsetHeight || 0;
+
+    document.body.style.setProperty("--hailights-footer-height", footerHeight + "px");
+    document.body.style.setProperty("--hailights-logo-height", logoHeight + "px");
+
+    document.body.classList.toggle("hailights-single-post", postCount <= 1);
+  };
+
+  placeLogo();
+  syncShortPageLayout();
+  requestAnimationFrame(function () {
+    placeLogo();
+    syncShortPageLayout();
+  });
+  window.addEventListener("load", function () {
+    placeLogo();
+    syncShortPageLayout();
+  });
+  window.addEventListener("resize", function () {
+    placeLogo();
+    syncShortPageLayout();
+  });
 
   document.querySelectorAll(".quarto-listing-category .category, .listing-category").forEach(function (el) {
     const text = el.childNodes[0] && el.childNodes[0].nodeType === Node.TEXT_NODE

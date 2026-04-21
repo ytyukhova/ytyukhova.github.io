@@ -189,37 +189,11 @@ format:
   </section>
 </div>
 
-<style>
-  .nb-publication-slider {
-    grid-auto-columns: minmax(10rem, 24%) !important;
-  }
-
-  .nb-publication-page {
-    aspect-ratio: 4 / 5 !important;
-    padding: 0.35rem !important;
-  }
-
-  .nb-publication-preview {
-    height: 100% !important;
-  }
-
-  @media (max-width: 900px) {
-    .nb-publication-slider {
-      grid-auto-columns: minmax(10rem, 42%) !important;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .nb-publication-slider {
-      grid-auto-columns: minmax(9rem, 64%) !important;
-    }
-  }
-</style>
-
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const slider = document.getElementById("featured-publication-slider");
     const buttons = Array.from(document.querySelectorAll(".nb-slider-button"));
+    const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
     if (!slider || buttons.length === 0) {
       return;
@@ -344,12 +318,16 @@ format:
       });
     });
 
-    slider.addEventListener("mouseenter", pauseLoop);
-    slider.addEventListener("mouseleave", resumeLoop);
+    if (hoverCapable) {
+      slider.addEventListener("mouseenter", pauseLoop);
+      slider.addEventListener("mouseleave", resumeLoop);
+    }
+
     slider.addEventListener("focusin", pauseLoop);
     slider.addEventListener("focusout", resumeLoopSoon);
     slider.addEventListener("touchstart", pauseLoop, { passive: true });
     slider.addEventListener("touchend", resumeLoopSoon, { passive: true });
+    slider.addEventListener("touchcancel", resumeLoopSoon, { passive: true });
     slider.addEventListener("scroll", normalizeScroll, { passive: true });
 
     window.addEventListener("resize", () => {
