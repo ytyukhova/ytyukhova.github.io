@@ -58,7 +58,7 @@ Below is a selected list of publications.
 ## Patents
 
 * **[Luminaires with transition zones for glare control](https://patents.google.com/patent/US10309588B2/en)**
-  US10309588
+  US10309588B2
   Application granted June 4, 2019
   Inventors: Yulia Tyukhova, et al.
 
