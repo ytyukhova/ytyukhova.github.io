@@ -766,6 +766,10 @@ body:has(.hcc-contact-page) #quarto-content.quarto-container.page-layout-full {
 .hailights-banner-logo-wrap {
   display: flex;
   justify-content: center;
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   margin-top: 0.5rem;
   margin-bottom: 0.1rem;
 }
@@ -777,12 +781,27 @@ body:has(.hcc-contact-page) #quarto-content.quarto-container.page-layout-full {
   height: auto;
 }
 
+html:has(body.hailights-page) {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body.hailights-page {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 body.hailights-page #quarto-content.quarto-container.page-layout-full {
+  height: auto !important;
   min-height: auto !important;
+  flex: 0 0 auto !important;
   padding-bottom: 0 !important;
 }
 
 body.hailights-page #quarto-content.page-rows-contents {
+  align-items: start !important;
   grid-template-rows:
     [content-top] max-content
     [content-bottom] max-content
@@ -799,14 +818,48 @@ body.hailights-page footer.footer {
   margin-top: 0 !important;
 }
 
-@media (min-width: 992px) {
-  body.hailights-page .hailights-banner-logo-wrap {
-    transform: translateX(clamp(4rem, 7vw, 7rem));
-  }
+body.hailights-page .hailights-page-endcap {
+  margin-top: auto;
+}
+
+body.hailights-page .hailights-page-endcap > .hailights-banner-logo-wrap {
+  margin-top: auto;
+}
+
+body.hailights-page.hailights-single-post {
+  padding-bottom: calc(var(--hailights-footer-height, 2.6rem) + var(--hailights-logo-height, 3rem) + 0.7rem);
+}
+
+body.hailights-page.hailights-single-post .hailights-page-endcap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--hailights-footer-height, 2.6rem) + 0.4rem);
+  z-index: 40;
+  margin: 0 !important;
+}
+
+body.hailights-page.hailights-single-post .hailights-page-endcap > .hailights-banner-logo-wrap {
+  width: 100vw;
+  margin: 0 !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  justify-content: center;
+}
+
+body.hailights-page.hailights-single-post footer.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  margin: 0 !important;
+  background: #fff;
 }
 
 @media (max-width: 991.98px) {
   body.hailights-page #quarto-content.page-rows-contents {
+    align-items: start !important;
     grid-template-rows:
       [content-top] max-content
       [content-bottom] max-content
@@ -814,6 +867,7 @@ body.hailights-page footer.footer {
   }
 
   body.hailights-page #quarto-content.page-layout-full main#quarto-document-content.column-page-left {
+    align-self: start !important;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
   }
@@ -827,13 +881,14 @@ body.hailights-page footer.footer {
   }
 
   body.hailights-page .hailights-banner-logo-wrap {
-    transform: none;
-    margin-top: 0.25rem;
+    padding-top: 0.25rem;
     margin-bottom: 0.1rem;
   }
+
+  body.hailights-page.hailights-single-post .hailights-page-endcap {
+    bottom: calc(var(--hailights-footer-height, 2.6rem) + 0.4rem);
+  }
 }
-
-
 
 .nb-hero {
   display: grid;
@@ -1036,12 +1091,15 @@ body.hailights-page footer.footer {
 .nb-publication-slider {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(18rem, 48%);
+  grid-auto-columns: minmax(10rem, 24%);
   gap: 1.25rem;
   overflow-x: auto;
   padding: 0.35rem 0 1rem;
   scroll-snap-type: none;
   scroll-padding-inline: 0;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  touch-action: pan-x;
   scrollbar-width: thin;
   scrollbar-color: #b9c0ca transparent;
 }
@@ -1094,7 +1152,7 @@ body.hailights-page footer.footer {
   position: relative;
   aspect-ratio: 4 / 5;
   display: block;
-  padding: 0.45rem;
+  padding: 0.35rem;
   border-radius: 22px;
   border: 1px solid rgba(17, 24, 39, 0.08);
   background:
@@ -1296,7 +1354,7 @@ body.hailights-page footer.footer {
   }
 
   .nb-publication-slider {
-    grid-auto-columns: minmax(16rem, 68%);
+    grid-auto-columns: minmax(10rem, 42%);
   }
 
   .nb-publication-page {
@@ -1330,7 +1388,7 @@ body.hailights-page footer.footer {
   }
 
   .nb-publication-slider {
-    grid-auto-columns: minmax(14rem, 82%);
+    grid-auto-columns: minmax(9rem, 64%);
   }
 
   .nb-interest-grid {
