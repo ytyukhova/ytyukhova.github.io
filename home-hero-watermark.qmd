@@ -1,5 +1,5 @@
 ---
-title: "hai-light — Hero Watermark"
+title: "Hai-lights — Hero Watermark"
 page-layout: article
 toc: false
 format:
@@ -13,7 +13,7 @@ format:
 ::: {.hcc-hero-copy}
 <div class="hcc-kicker">Consultancy Firm</div>
 
-<h1 class="hcc-title">hai-light</h1>
+<h1 class="hcc-title">Hai-lights</h1>
 
 <p class="hcc-subtitle">
 I study human perception, glare, and lighting quality, with a focus on practical

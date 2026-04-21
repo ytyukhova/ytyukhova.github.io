@@ -17,7 +17,7 @@ format:
       <div class="nb-kicker">Researcher and Technical Lead</div>
       <h1>Yulia Tyukhova</h1>
       <p class="nb-hero-subtitle">
-        Join me on a learning journey to explore new technologies, tools, and the insights shaping the lighting industry and beyond.
+        Join me in exploring new technologies, tools, and insights shaping the lighting industry and beyond.
       </p>
       <div class="nb-hero-actions">
         <a class="nb-button ghost" href="posts/">Read Hai-lights</a>
@@ -32,15 +32,15 @@ format:
   <section class="nb-features">
     <div class="nb-feature">
       <h2>Excellence</h2>
-      <p>Evaluation of discomfort glare, luminance measurement, and visual comfort metrics.</p>
+      <p>Lighting quality and visual comfort research and exploration of AI tools and technologies.</p>
     </div>
     <div class="nb-feature">
       <h2>Impact</h2>
-      <p>Data-driven analysis, study design, and interpretable outcomes for decision makers.</p>
+      <p>Leadership, technical reports, and applied guidance that translate research into practice and policy.</p>
     </div>
     <div class="nb-feature">
       <h2>Results</h2>
-      <p>Technical committee expertise to translate research into practice and policy.</p>
+      <p>Measurements, data-driven results, and interpretable outcomes for decision makers.</p>
     </div>
   </section>
 
@@ -49,7 +49,7 @@ format:
     <blockquote class="nb-home-quote">
       Not using AI systems for various tasks increasingly feels like falling behind in productivity and efficiency, yet using them raises fundamental questions: can we trust the results, how do we verify their accuracy, and what is our role as AI systems autonomously complete tasks of increasing complexity?
     </blockquote>
-    <a class="nb-quote-link" href="posts/2026_04_10_welcome/">Read more</a>
+    <a class="nb-quote-link" href="posts/2026_04_20_welcome/">Read more</a>
   </section>
 
   <section class="nb-publications" aria-label="Selected publications">

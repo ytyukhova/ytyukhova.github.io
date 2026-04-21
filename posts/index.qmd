@@ -17,4 +17,47 @@ format:
     title-block-banner: true
 ---
 
-Hai-lights cover a range of subjects in the industry and personal observations.
+```{=html}
+<div class="hailights-banner-logo-wrap">
+  <img class="hailights-banner-logo" src="../images/hai-lights-contact-logo-transparent.png" alt="Hai-lights logo" />
+</div>
+```
+
+Hai-lights covers a range of industry topics and personal observations.
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryMap = {
+    "news": "News",
+    "introduction": "Introduction",
+    "ai exploration": "AI Exploration",
+    "verification": "Verification"
+  };
+
+  const logoWrap = document.querySelector(".hailights-banner-logo-wrap");
+  const listing = document.querySelector(".quarto-listing");
+  const mainContent = document.querySelector("main#quarto-document-content");
+
+  if (logoWrap && listing && listing.parentNode) {
+    listing.parentNode.insertBefore(logoWrap, listing.nextSibling);
+  } else if (logoWrap && mainContent) {
+    mainContent.appendChild(logoWrap);
+  }
+
+  document.querySelectorAll(".quarto-listing-category .category, .listing-category").forEach(function (el) {
+    const text = el.childNodes[0] && el.childNodes[0].nodeType === Node.TEXT_NODE
+      ? el.childNodes[0].nodeValue.trim()
+      : el.textContent.trim();
+    const normalized = text.toLowerCase();
+    if (categoryMap[normalized]) {
+      if (el.childNodes[0] && el.childNodes[0].nodeType === Node.TEXT_NODE) {
+        el.childNodes[0].nodeValue = categoryMap[normalized] + " ";
+      } else {
+        el.textContent = categoryMap[normalized];
+      }
+    }
+  });
+});
+</script>
+```

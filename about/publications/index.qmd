@@ -6,7 +6,7 @@ format:
     css: ../../styles.css
 ---
 
-Below is a selected list of various publications.
+Below is a selected list of publications.
 
 <div class="about-icon-links">
   <a href="https://www.researchgate.net/profile/Yulia_Tyukhova?ev=hdr_xprf" target="_blank" aria-label="ResearchGate">
@@ -53,14 +53,14 @@ Below is a selected list of various publications.
 
 * **["Off-roadway sign luminance"](https://store.ies.org/product/rp-39-19-recommended-practice-off-roadway-sign-luminance/?v=0b3b97fa6688)**, ANSI/IES RP-39-19, member
 
-* **["Discomfort caused by glare from luminaire with a non-uniform source luminance"](https://cie.co.at/publications/discomfort-caused-glare-luminaires-non-uniform-source-luminance)**, CIE 232:2019, advisor
+* **["Discomfort caused by glare from luminaires with a non-uniform source luminance"](https://cie.co.at/publications/discomfort-caused-glare-luminaires-non-uniform-source-luminance)**, CIE 232:2019, advisor
 
 ## Patents
 
 * **[Luminaires with transition zones for glare control](https://patents.google.com/patent/US10309588B2/en)**
   US10309588
   Application granted June 4, 2019
-  Inventors: Yulia Tyukhova, et. al
+  Inventors: Yulia Tyukhova, et al.
 
 * **Installation for research of lighting quality for 3D objects**
   Russian Federation Utility model number: 102447

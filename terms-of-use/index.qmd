@@ -1,10 +1,10 @@
 ---
-title: "Terms Of Use"
+title: "Terms of Use"
 format:
   html:
     css: styles.css
 ---
 
-All content on this website is the intellectual property of the author and may not be reproduced, scraped, or used for AI training or data mining without prior written consent.
+All content on this website is the intellectual property of the author. Content may be read, shared, and cited for personal, educational, or non-commercial purposes, provided proper attribution is given. When quoting, referencing, or reusing any content from this website, include the author's name, the title of the work, the date, and a link to the original page. Commercial use of any content requires prior written permission from the author.
 
-When quoting, referencing, or reusing content from this website, proper attribution must be given to the author and the original source, including the author's name, the title of the work, and a link to the original webpage.
+Content on this website may not be reproduced in full, scraped, or used for AI training, data mining, or any automated data collection without prior written consent.

@@ -5,4 +5,10 @@ format:
     css: styles.css
 ---
 
-Opinions expressed on this Site are the author's own in her personal capacity. They do not reflect the views of any organisation or company she is associated with.
+The opinions expressed on this website are the author's own and do not reflect the views of any organization or company with which the author is associated.
+
+The content provided is for general informational purposes only and does not constitute professional, engineering, legal, or financial advice. Some content on this website may have been drafted or assisted with the help of AI tools and is reviewed and edited by the author. While reasonable efforts are made to ensure accuracy and timeliness, no guarantees are made regarding completeness or suitability for any particular purpose.
+
+References to third-party products, tools, companies, or publications are for informational purposes only and do not constitute endorsement.
+
+The author accepts no liability for any loss or damage arising from reliance on the information provided on this website.

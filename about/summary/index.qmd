@@ -30,11 +30,11 @@ format:
 
 Yulia Tyukhova, PhD, is an independent researcher specializing in lighting quality, human perception, and visual comfort. Previously she was a Senior Illumination Research Engineer at Acuity. She is experienced in leading and conducting complex research projects with human subjects, including designing, setting up, measuring, and executing controlled experiments in the field of lighting. She has advanced expertise in lighting measurements, calculations, and software. She received her PhD in Architectural Engineering - Lighting from the University of Nebraska-Lincoln.
 
-Dr. Tyukhova authors and reviews scientific publications, holds two patents, and presents her work at professional venues such as the Illuminating Engineering Society (IES) Annual Conference, the U.S. Department of Energy Lighting R&D Workshop, and the IES Webinar series. She actively contributes to the advancement of the profession through service on technical and non-technical committees of the IES, including chairing three of them, as well as committees of the International Commission on Illumination (CIE) and the Transportation Research Board (TRB).
+Dr. Tyukhova authors and reviews scientific publications, holds two patents, and presents her work at professional venues such as the Illuminating Engineering Society (IES) Annual Conference, the U.S. Department of Energy Lighting R&D Workshop, and the IES Webinar series. She actively contributes to the advancement of the profession through service on technical and non-technical committees of the IES, including having chaired three of them, as well as committees of the International Commission on Illumination (CIE) and the Transportation Research Board (TRB).
 
-Yulia Tyukhova is a recipient of the Fulbright scholarship, the Richard Kelly Grant, the STEP Ahead Emerging Leader Award. She has also been recognized as a future thought leader in the lighting industry by Lighting Design + Application (LD+A) magazine.
+Yulia Tyukhova is a recipient of the Fulbright Scholarship, the Richard Kelly Grant, and the STEP Ahead Emerging Leader Award. She was also recognized by Lighting Design + Application (LD+A) magazine as a future thought leader in the lighting industry.
 
-Request a copy of the CV.
+[Request a copy of the CV.](mailto:yulia@hai-lights.co)
 
 <div class="about-icon-links about-icon-links-boxed">
   <a class="about-icon-card" href="https://www.linkedin.com/in/yuliatyukhova/" target="_blank" aria-label="LinkedIn">

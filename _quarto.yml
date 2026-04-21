@@ -9,7 +9,7 @@ execute:
 
 website:
   title: "Yulia Tyukhova"
-  description: "Yulia Tyukhova is currently a Staff Software Engineer at NVIDIA, where she focuses on developing scalable evaluation systems for autonomous vehicles. Her passion, however, lies in LLMs, multimodal models, agentic AI, and frontier / foundation models in general."
+  description: "Yulia Tyukhova, PhD, is an independent researcher specializing in lighting quality, human perception, and visual comfort. Previously she was a Senior Illumination Research Engineer at Acuity."
   navbar:
     title: false
     logo: images/yt-logo-transparent.png
@@ -29,7 +29,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© Yulia Tyukhova, 2026 - <span class=\"footer-legal-links\"><a href=\"/disclaimer/\">Disclaimer</a> | <a href=\"/terms-of-use/\">Terms Of Use</a></span>"
+    left: "© Yulia Tyukhova, 2026 - <span class=\"footer-legal-links\"><a href=\"/disclaimer/\">Disclaimer</a> | <a href=\"/terms-of-use/\">Terms of Use</a></span>"
   twitter-card: true
   open-graph: true
   google-analytics: "G-6QDG6L7F9K"
