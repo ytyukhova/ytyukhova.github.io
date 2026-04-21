@@ -299,6 +299,11 @@ body:has(.hcc-contact-page) #quarto-content.quarto-container.page-layout-full {
   max-width: 28rem;
 }
 
+.hcc-contact-success {
+  grid-template-columns: 1fr;
+  row-gap: 0;
+}
+
 .hcc-contact-copy h2 {
   margin: 0 0 0.85rem;
   font-size: clamp(2rem, 4vw, 2.7rem);
