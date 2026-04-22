@@ -4,7 +4,7 @@ subtitle: ""
 page-layout: full
 format:
   html:
-    css: ../../styles.css
+    css: ../../styles.css?v=20260421b
     title-block: false
 ---
 
