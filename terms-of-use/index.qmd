@@ -2,7 +2,7 @@
 title: "Terms of Use"
 format:
   html:
-    css: styles.css?v=20260421b
+    css: styles.css
 ---
 
 All content on this website is the intellectual property of the author. Content may be read, shared, and cited for personal, educational, or non-commercial purposes, provided proper attribution is given. When quoting, referencing, or reusing any content from this website, include the author's name, the title of the work, the date, and a link to the original page. Commercial use of any content requires prior written permission from the author.

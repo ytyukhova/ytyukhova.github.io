@@ -7,7 +7,7 @@ toc: false
 comments: false
 format:
   html:
-    css: styles.css?v=20260421b
+    css: styles.css
 ---
 
 ```{=html}

@@ -2,7 +2,7 @@
 title: "Disclaimer"
 format:
   html:
-    css: styles.css?v=20260421b
+    css: styles.css
 ---
 
 The opinions expressed on this website are the author's own and do not reflect the views of any organization or company with which the author is associated.

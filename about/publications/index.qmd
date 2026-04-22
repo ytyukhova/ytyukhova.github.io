@@ -3,7 +3,7 @@ title: "Publications"
 page-layout: full
 format:
   html:
-    css: ../../styles.css?v=20260421b
+    css: ../../styles.css
 ---
 
 Below is a selected list of publications.
