@@ -1,5 +1,6 @@
 *.html
 *.log
+*.swp
 _freeze
 /.quarto/
 /_site/
