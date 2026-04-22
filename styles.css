@@ -601,11 +601,45 @@ body:has(.hcc-contact-page) #quarto-content.quarto-container.page-layout-full {
   padding-top: 0 !important;
 }
 
+.nav-footer-center,
+.nav-footer-right {
+  display: none !important;
+}
+
 .nav-footer-left p {
   white-space: nowrap;
   font-size: clamp(0.72rem, 1.65vw, 1rem);
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  .nav-footer {
+    display: block !important;
+    text-align: center;
+    padding: 0.2rem 0 !important;
+    min-height: 0 !important;
+  }
+
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    width: auto !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .nav-footer-center,
+  .nav-footer-right {
+    display: none !important;
+  }
+
+  .nav-footer-left p {
+    font-size: clamp(0.74rem, 1.35vw, 0.88rem);
+    line-height: 1.15;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 900px) {
@@ -738,47 +772,32 @@ body:has(.hcc-contact-page) #quarto-content.quarto-container.page-layout-full {
 }
 
 .hailights-page #title-block-header.quarto-title-block.default .quarto-title-banner {
-  background:
-    linear-gradient(135deg, rgba(8, 14, 26, 0.58) 0%, rgba(12, 22, 38, 0.48) 45%, rgba(20, 34, 56, 0.56) 100%),
-    url("images/Futuristic city of light and AI.png") center 35% / cover no-repeat;
+  background: transparent;
   border-radius: 20px;
-  margin: 0 0 1.5rem;
-  padding: 4.2rem 1.8rem;
-  border: 1px solid #d8dde5;
-  box-shadow: 0 16px 34px rgba(16, 24, 32, 0.14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0.45rem;
+  padding: 1.35rem 1rem 0.25rem;
+  border: 0;
+  box-shadow: none;
 }
 
 .hailights-page #title-block-header .quarto-title {
-  display: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .hailights-page #title-block-header .quarto-title .title {
   display: block;
-  width: min(100%, 34rem);
-  height: clamp(4.75rem, 11vw, 7.5rem);
-  margin: 0;
-  background: url("images/hai-lights-logo-white.png") left center / contain no-repeat;
+  width: min(100%, 37.6rem);
+  height: clamp(5.25rem, 11.9vw, 8.3rem);
+  margin: 0 auto;
+  background: url("images/hai-lights-contact-logo-transparent.png") center center / contain no-repeat;
   text-indent: -9999px;
   overflow: hidden;
   white-space: nowrap;
-}
-
-.hailights-banner-logo-wrap {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  max-width: none;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  margin-top: 0.5rem;
-  margin-bottom: 0.1rem;
-}
-
-.hailights-banner-logo {
-  display: block;
-  width: auto;
-  max-width: min(100%, 9.5rem);
-  height: auto;
 }
 
 html:has(body.hailights-page) {
@@ -796,7 +815,7 @@ body.hailights-page {
 body.hailights-page #quarto-content.quarto-container.page-layout-full {
   height: auto !important;
   min-height: auto !important;
-  flex: 0 0 auto !important;
+  flex: 1 0 auto !important;
   padding-bottom: 0 !important;
 }
 
@@ -816,45 +835,6 @@ body.hailights-page #quarto-content.page-layout-full main#quarto-document-conten
 
 body.hailights-page footer.footer {
   margin-top: 0 !important;
-}
-
-body.hailights-page .hailights-page-endcap {
-  margin-top: auto;
-}
-
-body.hailights-page .hailights-page-endcap > .hailights-banner-logo-wrap {
-  margin-top: auto;
-}
-
-body.hailights-page.hailights-single-post {
-  padding-bottom: calc(var(--hailights-footer-height, 2.6rem) + var(--hailights-logo-height, 3rem) + 0.7rem);
-}
-
-body.hailights-page.hailights-single-post .hailights-page-endcap {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: calc(var(--hailights-footer-height, 2.6rem) + 0.4rem);
-  z-index: 40;
-  margin: 0 !important;
-}
-
-body.hailights-page.hailights-single-post .hailights-page-endcap > .hailights-banner-logo-wrap {
-  width: 100vw;
-  margin: 0 !important;
-  margin-left: calc(50% - 50vw) !important;
-  margin-right: calc(50% - 50vw) !important;
-  justify-content: center;
-}
-
-body.hailights-page.hailights-single-post footer.footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 40;
-  margin: 0 !important;
-  background: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -879,14 +859,8 @@ body.hailights-page.hailights-single-post footer.footer {
   body.hailights-page .quarto-post {
     margin-bottom: 0.9rem !important;
   }
-
-  body.hailights-page .hailights-banner-logo-wrap {
-    padding-top: 0.25rem;
-    margin-bottom: 0.1rem;
-  }
-
-  body.hailights-page.hailights-single-post .hailights-page-endcap {
-    bottom: calc(var(--hailights-footer-height, 2.6rem) + 0.4rem);
+  body.hailights-page #quarto-margin-sidebar {
+    margin-top: 0.5rem;
   }
 }
 

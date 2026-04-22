@@ -144,18 +144,10 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Hai-lights – Yulia Tyukhova">
 <meta property="og:description" content="Yulia Tyukhova, PhD, is an independent researcher specializing in lighting quality, human perception, and visual comfort. Previously she was a Senior Illumination Research Engineer at Acuity.">
-<meta property="og:image" content="https://ytyukhova.github.io/images/hai-lights-contact-logo-transparent.png">
 <meta property="og:site_name" content="Yulia Tyukhova">
-<meta property="og:image:alt" content="Hai-lights logo">
-<meta property="og:image:height" content="271">
-<meta property="og:image:width" content="786">
 <meta name="twitter:title" content="Hai-lights – Yulia Tyukhova">
 <meta name="twitter:description" content="Yulia Tyukhova, PhD, is an independent researcher specializing in lighting quality, human perception, and visual comfort. Previously she was a Senior Illumination Research Engineer at Acuity.">
-<meta name="twitter:image" content="https://ytyukhova.github.io/images/hai-lights-contact-logo-transparent.png">
-<meta name="twitter:image:alt" content="Hai-lights logo">
-<meta name="twitter:image-height" content="271">
-<meta name="twitter:image-width" content="786">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed hailights-page quarto-light">
@@ -244,9 +236,6 @@ window.Quarto = {
 
 
 
-<div class="hailights-banner-logo-wrap">
-  <img class="hailights-banner-logo" src="../images/hai-lights-contact-logo-transparent.png" alt="Hai-lights logo">
-</div>
 <p>Hai-lights covers a range of industry topics and personal observations.</p>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -256,74 +245,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "ai exploration": "AI Exploration",
     "verification": "Verification"
   };
-
-  const logoWrap = document.querySelector(".hailights-banner-logo-wrap");
-  const listing = document.querySelector(".quarto-listing");
-  const footer = document.querySelector("footer.footer");
-  const mainContent = document.querySelector("main#quarto-document-content");
-  const postCount = document.querySelectorAll(".quarto-post").length;
-  const placeLogo = function () {
-    if (!logoWrap) {
-      return;
-    }
-
-    const viewportWidth = window.innerWidth;
-    const isSinglePost = postCount <= 1;
-
-    if (!isSinglePost && viewportWidth < 992 && listing && listing.parentNode) {
-      listing.parentNode.insertBefore(logoWrap, listing.nextSibling);
-      const oldEndcap = document.querySelector(".hailights-page-endcap");
-      if (oldEndcap && oldEndcap.childElementCount === 0) {
-        oldEndcap.remove();
-      }
-      return;
-    }
-
-    if (footer && footer.parentNode) {
-      let endcap = document.querySelector(".hailights-page-endcap");
-      if (!endcap) {
-        endcap = document.createElement("div");
-        endcap.className = "hailights-page-endcap";
-        footer.parentNode.insertBefore(endcap, footer);
-      }
-      endcap.appendChild(logoWrap);
-      return;
-    }
-
-    if (mainContent) {
-      mainContent.appendChild(logoWrap);
-    }
-  };
-
-  const syncShortPageLayout = function () {
-    if (!logoWrap || !footer) {
-      return;
-    }
-
-    document.body.classList.remove("hailights-short-page");
-    const footerHeight = footer.offsetHeight || 0;
-    const logoHeight = logoWrap.offsetHeight || 0;
-
-    document.body.style.setProperty("--hailights-footer-height", footerHeight + "px");
-    document.body.style.setProperty("--hailights-logo-height", logoHeight + "px");
-
-    document.body.classList.toggle("hailights-single-post", postCount <= 1);
-  };
-
-  placeLogo();
-  syncShortPageLayout();
-  requestAnimationFrame(function () {
-    placeLogo();
-    syncShortPageLayout();
-  });
-  window.addEventListener("load", function () {
-    placeLogo();
-    syncShortPageLayout();
-  });
-  window.addEventListener("resize", function () {
-    placeLogo();
-    syncShortPageLayout();
-  });
 
   document.querySelectorAll(".quarto-listing-category .category, .listing-category").forEach(function (el) {
     const text = el.childNodes[0] && el.childNodes[0].nodeType === Node.TEXT_NODE
@@ -371,7 +292,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TmV3cyUyQ0ludHJvZHVjdGlvbiUyQ0FJJTIwRXhwbG9yYXRpb24lMkNWZXJpZmljYXRpb24=" data-listing-date-sort="1776643200000" data-listing-file-modified-sort="1776814325424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="501">
+<div class="quarto-post image-right" data-index="0" data-categories="TmV3cyUyQ0ludHJvZHVjdGlvbiUyQ0FJJTIwRXhwbG9yYXRpb24lMkNWZXJpZmljYXRpb24=" data-listing-date-sort="1776643200000" data-listing-file-modified-sort="1776822860288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="501">
 <div class="thumbnail"><a href="../posts/2026_04_20_welcome/index.html" class="no-external">
 
 <p class="card-img-top"><img loading='lazy' src="2026_04_20_welcome/media/image1.png" alt="The diagram illustrates a workflow where a goal or task is defined, followed by steps to build a website using an AI model, verifying its accuracy, and assessing its capabilities and risks. AI-generated content may be incorrect."  class="thumbnail-image card-img"/></p>
