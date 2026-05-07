@@ -46,10 +46,20 @@ format:
 
   <section class="nb-quote-callout" aria-labelledby="nb-quote-title">
     <p class="nb-quote-kicker" id="nb-quote-title">From Hai-lights</p>
-    <blockquote class="nb-home-quote">
-      Not using AI systems for various tasks increasingly feels like falling behind in productivity and efficiency, yet using them raises fundamental questions: can we trust the results, how do we verify their accuracy, and what is our role as AI systems autonomously complete tasks of increasing complexity?
-    </blockquote>
-    <a class="nb-quote-link" href="posts/2026_04_20_welcome/">Read more</a>
+    <div class="nb-quote-item">
+      <p class="nb-quote-date">May 7, 2026</p>
+      <blockquote class="nb-home-quote">
+        Building and launching this website was a rather ‘manual’ process from the AI tools perspective. In the (near) future, I can imagine that it will be prepackaged for you to simply upload your CV and other relevant materials, and perhaps answer some questions, but the building, designing, and deploying will be done automatically on your behalf.
+      </blockquote>
+      <a class="nb-quote-link" href="posts/2026_05_07_building_a_website_through_conversations/">Read more</a>
+    </div>
+    <div class="nb-quote-item">
+      <p class="nb-quote-date">April 20, 2026</p>
+      <blockquote class="nb-home-quote">
+        Not using AI systems for various tasks increasingly feels like falling behind in productivity and efficiency, yet using them raises fundamental questions: can we trust the results, how do we verify their accuracy, and what is our role as AI systems autonomously complete tasks of increasing complexity?
+      </blockquote>
+      <a class="nb-quote-link" href="posts/2026_04_20_welcome/">Read more</a>
+    </div>
   </section>
 
   <section class="nb-publications" aria-label="Selected publications">

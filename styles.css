@@ -1021,6 +1021,19 @@ body.hailights-page footer.footer {
   color: #17212b;
 }
 
+.nb-quote-item + .nb-quote-item {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(47, 111, 106, 0.16);
+}
+
+.nb-quote-date {
+  margin: 0 0 0.45rem;
+  color: #6b7280;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .nb-quote-link {
   display: inline-flex;
   align-items: center;
