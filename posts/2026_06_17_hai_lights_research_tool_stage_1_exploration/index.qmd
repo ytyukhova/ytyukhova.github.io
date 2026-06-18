@@ -1,6 +1,6 @@
 ---
 title: "Hai-lights Research Tool"
-subtitle: "(Phase 1: Exploration)"
+subtitle: "(Stage 1: Exploration)"
 author: "Yulia Tyukhova"
 date: "2026-06-17"
 categories: ["AI Exploration", Verification, "Research Tool", RAG]
