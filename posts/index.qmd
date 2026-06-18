@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     "news": "News",
     "introduction": "Introduction",
     "ai exploration": "AI Exploration",
-    "verification": "Verification"
+    "verification": "Verification",
+    "research tool": "Research Tool"
   };
 
   document.querySelectorAll(".quarto-listing-category .category, .listing-category").forEach(function (el) {
