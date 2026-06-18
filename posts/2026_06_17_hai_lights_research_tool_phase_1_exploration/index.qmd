@@ -68,7 +68,7 @@ At first, testing was manual - I would load the tool locally and ask a couple of
 
 After several rounds of testing and improvement, I inspected my system more closely and noticed that the wording of some answers matched entries in the evaluation set word for word. The system had hard-coded the answers and overfit to the evaluation set in order to achieve a high score on this particular paper and question set. In subsequent prompts, I specifically asked for best practices in RAG system design and software engineering (I wanted well-written code rather than incremental patches). After a few more rounds of refinement, the performance scores did not improve. Feedback from Claude and Codex pointed to several notable directions: maintain a held-out test set (a set of questions that are reserved only for the final evaluation, separate from those used for development); and build an evaluation set that covers multiple papers instead of one, so that the architecture does not have to be rebuilt in the future. In addition, the overview research papers on RAG<sup>3, 4</sup> discussed off-the-shelf open-source components that I want to consider in the next stage to simplify the development.
 
-Below are a couple of things I learned during this early exploration stage. There are definitely more questions than answers at this early stage, but it gave me a good first introduction to RAG systems.
+There are definitely more questions than answers at this early stage, but it gave me a good first introduction to RAG systems. Below are a couple of things I learned during this early exploration stage.
 
 ## What I learned
 
